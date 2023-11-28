@@ -16,7 +16,7 @@ void DummyChaudiere::setON() {
 
     } else {
         this->setStatus(Status::ON);
-        std::cout << "je suis sur on\n";
+        std::cout << "Chaudiere ON\n";
     }
 }
 
@@ -27,7 +27,7 @@ void DummyChaudiere::setOFF() {
         throw BoilerAlreadyOFFexception();
     } else {
         this->setStatus(Status::OFF);
-        std::cout << "je suis sur off\n";
+        std::cout << "Chaudiere OFF\n";
     }
 }
 //----------------------------------------------------------------------

@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TP4"
+			"path" : "TP4.exe"
+		},
+		{
+			"path" : "TP4.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -68,12 +71,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "TP4",
-	"nameOnDisk" : "TP4",
+	"nameOnDisk" : "TP4.exe",
 	"paths" : 
 	{
 		"build" : ".",

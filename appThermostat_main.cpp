@@ -30,13 +30,16 @@ int main() {
 
 
     try {
-        DummyCapteurTemp capteurTest{
+        DummyCapteurTemp capteurTest {};
 
-        };
-        std::cout << "Default capteur value " << capteurTest.getTemp();
+        // std::cout << "Default capteur value " << (capteurTest.getTemp())<< std::endl;
+        float temp  = capteurTest.getTemp();
+        std::cout << "Temperature capteur: "<< temp << std::endl;
+
     } catch (std::exception const& e) {
         std::cout << "Exception\n";
     }
+
     // end tests
 
     return 0;

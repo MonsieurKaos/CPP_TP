@@ -11,18 +11,18 @@ DummyCapteurTemp::DummyCapteurTemp(int16_t defaultTmin,int16_t defaulTmax,uint16
 
 int16_t DummyCapteurTemp::getTmin(){
     return this->Tmin;
-
 };
+
 int16_t DummyCapteurTemp::getTmax(){
     return this->Tmax;
-
 };
+
 int16_t DummyCapteurTemp::getDeltaMax(){
     return this ->DeltaMax;
 };
+
 int16_t DummyCapteurTemp::getPrevTemp(){
     return this->PrevTemp;
-
 };
 
 float DummyCapteurTemp::getTemp() const noexcept{
