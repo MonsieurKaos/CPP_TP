@@ -75,7 +75,7 @@ public:
 
         return randomFloat;
     }
-    
+
 
 public:
 

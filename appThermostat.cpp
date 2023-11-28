@@ -8,15 +8,17 @@
 
 #include "appThermostat.hpp"
 
+
+
 //----------------------------------------------------------------------
 void	ThermostatApp::Init(){
-
+    DummyChaudiere Chaudiere{};
+    DummyCapteurTemp capteurTemp {};
 }
 //----------------------------------------------------------------------
 void	ThermostatApp::Run(){
 
-    float getTemp{
-    };
+    float temp = float getTemp{};
 	/**<	 Nothing to do in the main task	*/
 }
 //----------------------------------------------------------------------
